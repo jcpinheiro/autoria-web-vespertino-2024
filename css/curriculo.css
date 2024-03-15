@@ -8,6 +8,12 @@ body {
 
 header {
     text-align: center;
+    font-size: 90%;
+}
+
+/* comentario */
+#email {
+    font-family: cursive;
 }
 
 h2 {
@@ -23,4 +29,17 @@ h2 {
 div p {
     font-family: monospace; 
     font-size: 120%;   
+}
+
+.enfase {
+    font-weight: bold;
+}
+
+.identacao {
+    text-indent: 4ch;
+}
+
+.codigo {
+    font-family: monospace;
+    font-size: 120%;
 }
