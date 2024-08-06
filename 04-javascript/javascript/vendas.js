@@ -1,13 +1,16 @@
-let nome = document.getElementById('nome').value
-let quantidade = document.querySelector('#quantidade').value
-let valor = document.querySelector('#preco').value
+let nome = document.getElementById('nome')
+let quantidade = document.querySelector('#quantidade')
+let valor = document.querySelector('#preco')
 
 
 document.querySelector('#btnCadastro')
-    .addEventListener('click', function() {
-        console.log(nome)
-        console.log(quantidade )
-        console.log(valor)
+    .addEventListener('click', function(event) {
+        
+        event.preventDefault()
+
+        console.log(nome.value)
+        console.log(quantidade.value )
+        console.log(valor.value)
 
       }) 
 
