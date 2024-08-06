@@ -36,8 +36,30 @@
                 <button id="btnCadastro" type="submit" class="btn btn-primary">Cadastrar Item</button>
                 <button type="reset" class="btn btn-secondary">Limpar Formulário</button>
             </div>
-
         </form>
+     <section class="mt-4">
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>NOME</th>
+                    <th>QUANTIDADE</th>
+                    <th>VALOR UNITÁRIO</th>
+                    <th>SUBTOTAL</th>
+                </tr>
+            </thead>
+    
+            <tbody id="tbodyItemPedido">
+             <!-- adicionar os itens -->
+            </tbody>
+            <tfoot>
+                <td colspan="3" class="text-right">Total</td>
+                <td class="text-center js-total">0</td>
+            </tfoot>
+        </table>
+    
+
+     </section>
+
     </main>
    
     <script src="javascript/vendas.js"></script>
